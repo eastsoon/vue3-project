@@ -17,10 +17,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <RouterLink to="/" active-class="active" class="nav-link"
+                >Home</RouterLink
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <RouterLink to="/about" active-class="active" class="nav-link"
+                >About</RouterLink
+              >
             </li>
           </ul>
         </div>

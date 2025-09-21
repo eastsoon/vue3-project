@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="container py-5">
-      <h1>Hello vue3</h1>
+      <RouterView />
     </div>
   </main>
 </template>
